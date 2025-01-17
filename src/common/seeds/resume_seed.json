@@ -1,0 +1,135 @@
+{
+  "resumes": [
+    {
+      "id": 1,
+      "user_id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": "John Doe Resume",
+      "version": 1,
+      "status": "draft",
+      "full_name": "John Doe",
+      "professional_summary": "Highly motivated software developer.",
+      "contact": {
+        "email": "johndoe@example.com",
+        "location": {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        "linkedin": "https://linkedin.com/in/johndoe"
+      },
+      "created_at": "2025-01-14T12:00:00Z",
+      "updated_at": "2025-01-14T12:00:00Z",
+      "last_generated_pdf": null,
+      "styling_preferences": {
+        "template": "modern",
+        "color_scheme": "blue",
+        "font_family": "Arial",
+        "section_order": ["experience", "education", "skills"]
+      },
+      "keywords": ["developer", "team"],
+      "industry_focus": ["Tech"],
+      "job_titles_targeted": ["Software Engineer"],
+      "education": [
+        {
+          "id": 1,
+          "institution": "University of Tech",
+          "degree": "Bachelor’s Degree",
+          "field": "Computer Science",
+          "start_date": "2018-09-01",
+          "end_date": "2022-05-31",
+          "gpa": 3.8,
+          "achievements": ["Dean's List", "Hackathon"],
+          "location": "New York, NY"
+        }
+      ],
+      "experience": [
+        {
+          "id": 1,
+          "company": "Tech Corp",
+          "position": "Software Engineer",
+          "start_date": "2022-06-01",
+          "end_date": null,
+          "location": "Remote",
+          "description": ["Developed APIs", "Fixed bugs"],
+          "skills_used": ["Python", "JavaScript"],
+          "achievements": ["Promoted to Lead"]
+        },
+        {
+          "id": 2,
+          "company": "Freelance",
+          "position": "Web Developer",
+          "start_date": "2020-01-01",
+          "end_date": "2022-05-01",
+          "location": "New York, NY",
+          "description": ["Designed websites", "Consulted"],
+          "skills_used": ["HTML", "CSS"],
+          "achievements": ["Awarded best design"]
+        }
+      ],
+      "skills": [
+        {
+          "id": 1,
+          "name": "JavaScript",
+          "category": "Technical",
+          "proficiency_level": "Expert",
+          "years_experience": 5
+        },
+        {
+          "id": 2,
+          "name": "Communication",
+          "category": "Soft Skills",
+          "proficiency_level": "Advanced",
+          "years_experience": 4
+        },
+        {
+          "id": 3,
+          "name": "Python",
+          "category": "Technical",
+          "proficiency_level": "Expert",
+          "years_experience": 3
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "name": "Portfolio Website",
+          "description": "Personal portfolio site",
+          "technologies": ["HTML", "React"],
+          "url": "https://johndoe.com",
+          "start_date": "2022-01-01",
+          "end_date": null,
+          "highlights": ["Responsive design"]
+        },
+        {
+          "id": 2,
+          "name": "Chat App",
+          "description": "Real-time chat application",
+          "technologies": ["Node.js", "Socket"],
+          "url": null,
+          "start_date": "2021-01-01",
+          "end_date": "2022-01-01",
+          "highlights": ["Integrated typing indicator"]
+        }
+      ],
+      "certifications": [
+        {
+          "id": 1,
+          "name": "AWS Solutions Architect",
+          "issuer": "Amazon",
+          "date_acquired": "2022-05-15",
+          "expiry_date": "2025-05-15",
+          "credential_id": "AWS-123456"
+        }
+      ],
+      "awards": [
+        {
+          "id": 1,
+          "title": "Best Coder",
+          "issuer": "Code Hackathon",
+          "date": "2020-11-01",
+          "description": "Won the best coder challenge."
+        }
+      ]
+    }
+  ]
+}
